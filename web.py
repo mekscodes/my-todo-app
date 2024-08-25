@@ -27,7 +27,4 @@ for index, todo in enumerate(todos):
 st.text_input(label="ok1", placeholder="Add new todo...",
               on_change=add_todo, key='new_todo')
 
-print("Hellos")
-
-st.session_state
 
